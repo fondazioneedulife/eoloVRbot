@@ -8,6 +8,8 @@ from requests import *
 
 Indietro = "Indietro"
 
+user_dict = [{"Id" : 5, "GetClosest": True}, {"Id" : 6, "GetClosest" : False}]
+
 def cloasest(update: Update, context: CallbackContext) -> bool:
 
     #! se non si inserisce una via ma qualsiasi altro messaggio non funziona(TODO check user input)
@@ -26,18 +28,44 @@ def cloasest(update: Update, context: CallbackContext) -> bool:
     sorteDistance = bot_functions.Sort(distance)
     msg = f"La posizione è {location.address}\n"
     msg += f"La stazione più vicina è ID{sorteDistance[0][0]}"
-    msg += f" e si trova a {round(sorteDistance[0][1], 3)}Km dalla posizione"
+    msg += f" e si trova a {round(sorteDistance[0][1], 3)} Km dalla posizione"
     update.message.reply_text(msg)
 
     buttons = [[KeyboardButton("✔️")], [(KeyboardButton("❌"))]]
     context.bot.send_message(chat_id=update.effective_chat.id, text="É corretta?",
                               reply_markup=ReplyKeyboardMarkup(buttons))
     
-
+def getUserIndex(id):
+    found = False
+    for i in range(len(user_dict)):
+        if(user_dict[i]['Id']==id):
+            found = True
+            index_found=i
+    if(found):
+        return index_found
+    else:
+        return -1
 
 def handle_message(update: Update, context: CallbackContext):
+    
+    chat_id = update.effective_chat.id
+
+    user_current = None
+    user_index = getUserIndex(chat_id)
+    if(user_index!=-1):
+        user_current = user_dict[user_index]
+
     if "✔️" in update.message.text or "❌" in update.message.text:
         if "✔️" in update.message.text:
+
+            
+            if(user_current == None):
+                user_current = {"Id" : chat_id, "GetClosest": False}
+                user_dict.insert(0, user_current)
+            else:
+                user_dict[user_index]['GetClosest']=False
+
+
             context.bot_data["iscloseStazClicked"] = False
             buttons = [[KeyboardButton(context.bot_data["Mappa"])], [(KeyboardButton(context.bot_data["closeStaz"]))]]              
             context.bot.send_message(chat_id=update.effective_chat.id, text = "Scegli un azione", reply_markup=ReplyKeyboardMarkup(buttons))
