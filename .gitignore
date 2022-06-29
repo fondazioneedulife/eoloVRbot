@@ -8,3 +8,4 @@
 *.sym
 *.db
 config.py
+package/__pycache__/

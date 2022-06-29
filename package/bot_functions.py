@@ -1,6 +1,7 @@
 from telegram import *
 from telegram.ext import *
 import math as m
+import numpy
 
 
 def start(update: Update, context: CallbackContext):
@@ -23,7 +24,7 @@ def help(update: Update, context: CallbackContext):
     """)
 
 
-def dist(lat1, lon1, lat2, lon2) -> float:
+def dist(latitude1,  longitude1,  latitude2,  longitude2) -> float:
     """Calcutaes the distance between two coords
 
     Args:
@@ -35,9 +36,17 @@ def dist(lat1, lon1, lat2, lon2) -> float:
     Returns:
         float: Distace between the two coords in KM
     """
-    num1 = m.sin((m.radians(lat2) - m.radians(lat1)) / 2)
-    num2 = m.sin((m.radians(lon2) - m.radians(lon1)) / 2)
-    return 6371 * 2 * m.asin(m.sqrt(m.pow(num1, 2) + m.cos(lat1) * m.cos(lat2) * m.pow(num2, 2)))
+    theta =  longitude1 -  longitude2; 
+    distance = (m.sin(numpy.deg2rad( latitude1)) * m.sin(numpy.deg2rad( latitude2))) + (m.cos(numpy.deg2rad( latitude1)) * m.cos(numpy.deg2rad( latitude2)) * m.cos(numpy.deg2rad( theta))); 
+    distance = m.acos(distance); 
+    distance = numpy.rad2deg(distance); 
+    distance =  distance * 60 * 1.1515; 
+    distance =  distance * 1.609344;  
+    return (round( distance,2)); 
+
+    #num1 = m.sin((m.radians(lat2) - m.radians(lat1)) / 2)
+    #num2 = m.sin((m.radians(lon2) - m.radians(lon1)) / 2)
+    #return 6371 * 2 * m.asin(m.sqrt(m.pow(num1, 2) + m.cos(lat1) * m.cos(lat2) * m.pow(num2, 2)))
 
 
 def Sort(sub_li):

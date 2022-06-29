@@ -11,6 +11,7 @@ Indietro = "Indietro"
 def cloasest(update: Update, context: CallbackContext) -> bool:
 
     #! se non si inserisce una via ma qualsiasi altro messaggio non funziona(TODO check user input)
+    #Ora se l'utente clicca un pulsante durante l'inserimento il bot lo corregge ma se inserisce un input a caso si blocca ancora
 
     street = update.message.text + " Vr"
     geolocator = Nominatim(user_agent="TelegramWindBot")
@@ -50,6 +51,8 @@ def handle_message(update: Update, context: CallbackContext):
             buttons = [[KeyboardButton("Mappa")], [(KeyboardButton(context.bot_data["closeStaz"]))]]
             context.bot.send_message(chat_id=update.effective_chat.id, text="Usa i comandi per scegliere un'azione",
                 reply_markup=ReplyKeyboardMarkup(buttons))
+        elif ("Mappa" in update.message.text) or (context.bot_data["closeStaz"] in update.message.text):
+            update.message.reply_text("Comando non valido. Utilizzare il tasto indietro per tornare allo start")
         else:
             cloasest(update, context)
         # TODO Make this work(if first inpunt is wrong offer second input)   
@@ -73,7 +76,7 @@ def main():
         TOKEN = f.read()
         print("Il tuo token è: ", TOKEN)
 
-    db = sqlite3.connect("wether.db")
+    db = sqlite3.connect("weather.db")
     updater = Updater(TOKEN, use_context=True)
     disp = updater.dispatcher
     disp.bot_data = {"Mappa": "Mappa del 💨",
@@ -86,6 +89,7 @@ def main():
         SELECT IDSTAZ, avg, Latitude, Longitude FROM CoordinateStazioni INNER JOIN (
 SELECT IDStazione, avg(WIND) as avg FROM dump_dati_stazioni_VR GROUP BY IDStazione
 ) ON IDSTAZ == IDStazione
+
         """
         cursor = db.cursor()
         querry = """SELECT IDSTAZ, Longitude, Latitude FROM CoordinateStazioni"""
