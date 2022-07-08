@@ -11,16 +11,6 @@ A telegram bot that with open weather data calculates a wind map  of the surroun
 Geopy is a library needed to run nominatim(service used for finding adresses), to install it open the cmd as administrator and type in the command: pip install geopy
 
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -29,20 +19,17 @@ Geopy is a library needed to run nominatim(service used for finding adresses), t
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
+[![Contributors][contributors-shield]][https://github.com/Rick-1242/eoloBot/graphs/contributors]
+[![Forks][forks-shield]][https://github.com/Rick-1242/eoloBot/fork]
+[![Issues][issues-shield]][https://github.com/Rick-1242/eoloBot/issues]
+[![MIT License][license-shield]][https://github.com/Rick-1242/eoloBot/blob/main/LICENSE]
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/Rick-1242/eoloBot">
+    <img src="https://github.com/Rick-1242/eoloBot/blob/main/images/logoo.png" alt="Logo" width="100" height="100">
   </a>
 
 <h3 align="center">project_title</h3>

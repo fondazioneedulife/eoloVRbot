@@ -6,25 +6,23 @@ import numpy
 
 def start(update: Update, context: CallbackContext):
     msg = f"Ciao {update.effective_user.first_name}\nBenvenuto nel WindBot"
-    buttons = [[KeyboardButton(context.bot_data["Mappa"])], [
-        (KeyboardButton(context.bot_data["closeStaz"]))]]
-    context.bot.send_message(chat_id=update.effective_chat.id, text=msg,
-                             reply_markup=ReplyKeyboardMarkup(buttons))
-
+    update.message.reply_text(msg)
 
 def error(update: Update, context: CallbackContext):
     print(f"Update {update} caused error {context.error}")
 
-
 def help(update: Update, context: CallbackContext):
     update.message.reply_text("""
     Sono disponibili i seguenti comandi:
-
-    /start --> Per avviare il bot
+        /start -> Messaggio di benvenuto
+        /help -> Visualizza questo messaggio.
+        /close -> Inserire questo comando e una via per ricevere la centralina più vicina.
+        /mappa -> link per la mappa di tutte le centraline 
+        /quiz -> link per il quiz sul vento
     """)
 
 
-def dist(latitude1,  longitude1,  latitude2,  longitude2) -> float:
+def dist( latitude1,  longitude1,  latitude2,  longitude2) -> float:
     """Calcutaes the distance between two coords
 
     Args:
@@ -42,11 +40,7 @@ def dist(latitude1,  longitude1,  latitude2,  longitude2) -> float:
     distance = numpy.rad2deg(distance); 
     distance =  distance * 60 * 1.1515; 
     distance =  distance * 1.609344;  
-    return (round( distance,2)); 
-
-    #num1 = m.sin((m.radians(lat2) - m.radians(lat1)) / 2)
-    #num2 = m.sin((m.radians(lon2) - m.radians(lon1)) / 2)
-    #return 6371 * 2 * m.asin(m.sqrt(m.pow(num1, 2) + m.cos(lat1) * m.cos(lat2) * m.pow(num2, 2)))
+    return (round( distance,2))
 
 
 def Sort(sub_li):

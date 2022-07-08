@@ -8,4 +8,7 @@
 *.sym
 *.db
 config.py
-package/__pycache__/
+bot/token.txt
+token.txt
+bot/__pycache__
+token.txt
