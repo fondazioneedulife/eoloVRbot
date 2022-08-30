@@ -10,16 +10,10 @@ A telegram bot that with open weather data calculates a wind map  of the surroun
 ## Libraries Needed
 Geopy is a library needed to run nominatim(service used for finding adresses), to install it open the cmd as administrator and type in the command: pip install geopy
 
-<div id="top"></div>
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][https://github.com/Rick-1242/eoloBot/graphs/contributors]
-[![Forks][forks-shield]][https://github.com/Rick-1242/eoloBot/fork]
-[![Issues][issues-shield]][https://github.com/Rick-1242/eoloBot/issues]
-[![MIT License][license-shield]][https://github.com/Rick-1242/eoloBot/blob/main/LICENSE]
+
+|  | Link |
+| ------ | ------ |
+| Contributors | https://github.com/Rick-1242/eoloBot/graphs/contributors |
+| Forks | https://github.com/Rick-1242/eoloBot/fork |
+| Issues | https://github.com/Rick-1242/eoloBot/issues |
+| MIT License | https://github.com/Rick-1242/eoloBot/blob/main/LICENSE |
