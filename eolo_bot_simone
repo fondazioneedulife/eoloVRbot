@@ -1,0 +1,24 @@
+import json
+
+def leggidati():
+    FILENAME="weatherbot.geojson"
+    file_station=open(FILENAME)
+    data=json.load(file_station)
+    dati=[]
+    for feature in data['features']:
+        value=[]
+        value.append(feature["properties"]["IDSTAZ"])
+        value.append(feature["properties"]["Media_V"])
+        value.append(feature["properties"]["Media_T"])
+        value.append(feature["properties"]["Max_T"])
+        value.append(feature["properties"]["Min_T"])
+        value.append(feature["properties"]["Media_DT"])
+        value.append(feature["geometry"]["coordinates"][0])
+        value.append(feature["geometry"]["coordinates"][1])
+        dati.append(value)
+    return dati
+
+def main():
+    dati=leggidati()
+    print(dati)
+main()
