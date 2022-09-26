@@ -1,0 +1,851 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "18",
+        "Media_V": "0,79",
+        "Media_T": "16,8",
+        "Max_T": "35,5",
+        "Min_T": "-2,8",
+        "Media_DT": "38,3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.953611,
+          45.355833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "19",
+        "Media_V": "0,76",
+        "Media_T": "Valore non disponibile",
+        "Max_T": "Valore non disponibile",
+        "Min_T": "Valore non disponibile",
+        "Media_DT": "Valore non disponibile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.053333,
+          45.377222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "21",
+        "Media_V": "4,08",
+        "Media_T": "14,3",
+        "Max_T": "36,3",
+        "Min_T": "-17,8",
+        "Media_DT": "54,1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.175278,
+          45.432778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "24",
+        "Media_V": "1,14",
+        "Media_T": "Valore non disponibile",
+        "Max_T": "Valore non disponibile",
+        "Min_T": "Valore non disponibile",
+        "Media_DT": "Valore non disponibile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.014722,
+          45.451944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "38",
+        "Media_V": "4,15",
+        "Media_T": "7,9",
+        "Max_T": "26,6",
+        "Min_T": "-6,6",
+        "Media_DT": "21,3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.858889,
+          45.697778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "54",
+        "Media_V": "1,85",
+        "Media_T": "14,5",
+        "Max_T": "36,0",
+        "Min_T": "-4,1",
+        "Media_DT": "23,4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.916111,
+          45.503333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "55",
+        "Media_V": "1,68",
+        "Media_T": "14,5",
+        "Max_T": "35,9",
+        "Min_T": "-3,3",
+        "Media_DT": "23,8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.788333,
+          45.498056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "59",
+        "Media_V": "0,51",
+        "Media_T": "Valore non disponibile",
+        "Max_T": "Valore non disponibile",
+        "Min_T": "Valore non disponibile",
+        "Media_DT": "Valore non disponibile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.766667,
+          45.666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "78",
+        "Media_V": "0,89",
+        "Media_T": "14,8",
+        "Max_T": "84,0",
+        "Min_T": "-3,5",
+        "Media_DT": "75,9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.318056,
+          45.169167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "125",
+        "Media_V": "2,79",
+        "Media_T": "Valore non disponibile",
+        "Max_T": "Valore non disponibile",
+        "Min_T": "Valore non disponibile",
+        "Media_DT": "Valore non disponibile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.247778,
+          45.425278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "139",
+        "Media_V": "1,57",
+        "Media_T": "Valore non disponibile",
+        "Max_T": "Valore non disponibile",
+        "Min_T": "Valore non disponibile",
+        "Media_DT": "Valore non disponibile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.947778,
+          45.315278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "157",
+        "Media_V": "4,86",
+        "Media_T": "16,2",
+        "Max_T": "37,1",
+        "Min_T": "-3,2",
+        "Media_DT": "24,9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.196111,
+          45.193056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "221",
+        "Media_V": "2,56",
+        "Media_T": "14,5",
+        "Max_T": "37,4",
+        "Min_T": "-4,4",
+        "Media_DT": "28,1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.44,
+          45.298889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "237",
+        "Media_V": "5,70",
+        "Media_T": "14,8",
+        "Max_T": "35,7",
+        "Min_T": "-5,1",
+        "Media_DT": "24,7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.913056,
+          45.390833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "246",
+        "Media_V": "2,59",
+        "Media_T": "15,6",
+        "Max_T": "37,3",
+        "Min_T": "-3,8",
+        "Media_DT": "37,1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.888889,
+          45.431944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "345",
+        "Media_V": "1,02",
+        "Media_T": "16,1",
+        "Max_T": "35,5",
+        "Min_T": "-3,1",
+        "Media_DT": "38,6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.796944,
+          45.493611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "360",
+        "Media_V": "3,70",
+        "Media_T": "Valore non disponibile",
+        "Max_T": "Valore non disponibile",
+        "Min_T": "Valore non disponibile",
+        "Media_DT": "Valore non disponibile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.883889,
+          45.523889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "429",
+        "Media_V": "5,89",
+        "Media_T": "11,6",
+        "Max_T": "29,4",
+        "Min_T": "-4,1",
+        "Media_DT": "20,0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.126111,
+          45.561667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "435",
+        "Media_V": "2,16",
+        "Media_T": "9,7",
+        "Max_T": "25,3",
+        "Min_T": "-3,6",
+        "Media_DT": "19,2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.024444,
+          45.605556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "452",
+        "Media_V": "13,93",
+        "Media_T": "7,3",
+        "Max_T": "23,3",
+        "Min_T": "-17,8",
+        "Media_DT": "32,4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.05,
+          45.676944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "454",
+        "Media_V": "3,47",
+        "Media_T": "9,7",
+        "Max_T": "25,6",
+        "Min_T": "-9,1",
+        "Media_DT": "23,8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.866667,
+          45.56
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "456",
+        "Media_V": "1,67",
+        "Media_T": "11,2",
+        "Max_T": "36,7",
+        "Min_T": "-3,9",
+        "Media_DT": "40,6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.910556,
+          45.616667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "457",
+        "Media_V": "16,29",
+        "Media_T": "Valore non disponibile",
+        "Max_T": "Valore non disponibile",
+        "Min_T": "Valore non disponibile",
+        "Media_DT": "Valore non disponibile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0575,
+          45.691944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "461",
+        "Media_V": "2,56",
+        "Media_T": "Valore non disponibile",
+        "Max_T": "Valore non disponibile",
+        "Min_T": "Valore non disponibile",
+        "Media_DT": "Valore non disponibile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.233056,
+          45.518889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "470",
+        "Media_V": "4,73",
+        "Media_T": "Valore non disponibile",
+        "Max_T": "Valore non disponibile",
+        "Min_T": "Valore non disponibile",
+        "Media_DT": "Valore non disponibile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.087778,
+          45.591111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "472",
+        "Media_V": "-5,62",
+        "Media_T": "14,9",
+        "Max_T": "37,0",
+        "Min_T": "-3,6",
+        "Media_DT": "26,6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.198056,
+          45.186111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "474",
+        "Media_V": "2,35",
+        "Media_T": "Valore non disponibile",
+        "Max_T": "Valore non disponibile",
+        "Min_T": "Valore non disponibile",
+        "Media_DT": "Valore non disponibile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.07,
+          45.373889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "476",
+        "Media_V": "5,35",
+        "Media_T": "Valore non disponibile",
+        "Max_T": "Valore non disponibile",
+        "Min_T": "Valore non disponibile",
+        "Media_DT": "Valore non disponibile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.733889,
+          45.642778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "479",
+        "Media_V": "6,40",
+        "Media_T": "15,0",
+        "Max_T": "35,0",
+        "Min_T": "-17,8",
+        "Media_DT": "43,9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.726944,
+          45.544167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "482",
+        "Media_V": "11,02",
+        "Media_T": "5,3",
+        "Max_T": "16,4",
+        "Min_T": "-7,5",
+        "Media_DT": "21,1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.979167,
+          45.683611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "483",
+        "Media_V": "4,24",
+        "Media_T": "14,9",
+        "Max_T": "36,3",
+        "Min_T": "-4,4",
+        "Media_DT": "36,3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.064167,
+          45.452778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "486",
+        "Media_V": "Valore non disponibile",
+        "Media_T": "1,9",
+        "Max_T": "12,9",
+        "Min_T": "-16,5",
+        "Media_DT": "28,8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.096111,
+          45.677778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "494",
+        "Media_V": "2,10",
+        "Media_T": "14,1",
+        "Max_T": "38,0",
+        "Min_T": "-28,5",
+        "Media_DT": "38,0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.060278,
+          45.477222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "496",
+        "Media_V": "1,35",
+        "Media_T": "Valore non disponibile",
+        "Max_T": "Valore non disponibile",
+        "Min_T": "Valore non disponibile",
+        "Media_DT": "Valore non disponibile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.936111,
+          45.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "499",
+        "Media_V": "1,91",
+        "Media_T": "15,1",
+        "Max_T": "36,7",
+        "Min_T": "-3,3",
+        "Media_DT": "36,7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.959444,
+          45.362222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "501",
+        "Media_V": "5,03",
+        "Media_T": "14,7",
+        "Max_T": "35,9",
+        "Min_T": "-3,3",
+        "Media_DT": "34,4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.686667,
+          45.436667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "502",
+        "Media_V": "2,65",
+        "Media_T": "Valore non disponibile",
+        "Max_T": "Valore non disponibile",
+        "Min_T": "Valore non disponibile",
+        "Media_DT": "Valore non disponibile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.011667,
+          45.375278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "504",
+        "Media_V": "2,52",
+        "Media_T": "Valore non disponibile",
+        "Max_T": "Valore non disponibile",
+        "Min_T": "Valore non disponibile",
+        "Media_DT": "Valore non disponibile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.350278,
+          45.145833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "509",
+        "Media_V": "2,26",
+        "Media_T": "Valore non disponibile",
+        "Max_T": "Valore non disponibile",
+        "Min_T": "Valore non disponibile",
+        "Media_DT": "Valore non disponibile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.934167,
+          45.514444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "510",
+        "Media_V": "1,19",
+        "Media_T": "14,7",
+        "Max_T": "33,3",
+        "Min_T": "-4,9",
+        "Media_DT": "33,3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.283333,
+          45.45
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "513",
+        "Media_V": "12,51",
+        "Media_T": "2,0",
+        "Max_T": "15,3",
+        "Min_T": "-8,8",
+        "Media_DT": "22,5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.017222,
+          45.718333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "541",
+        "Media_V": "3,51",
+        "Media_T": "Valore non disponibile",
+        "Max_T": "Valore non disponibile",
+        "Min_T": "Valore non disponibile",
+        "Media_DT": "Valore non disponibile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.936389,
+          45.445556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "542",
+        "Media_V": "3,75",
+        "Media_T": "Valore non disponibile",
+        "Max_T": "Valore non disponibile",
+        "Min_T": "Valore non disponibile",
+        "Media_DT": "Valore non disponibile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.993056,
+          45.4375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "543",
+        "Media_V": "2,26",
+        "Media_T": "7,3",
+        "Max_T": "15,9",
+        "Min_T": "-1,7",
+        "Media_DT": "17,6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.745278,
+          45.459444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "545",
+        "Media_V": "1,37",
+        "Media_T": "14,7",
+        "Max_T": "32,2",
+        "Min_T": "-2,1",
+        "Media_DT": "18,7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.920556,
+          45.54
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "552",
+        "Media_V": "4,95",
+        "Media_T": "Valore non disponibile",
+        "Max_T": "Valore non disponibile",
+        "Min_T": "Valore non disponibile",
+        "Media_DT": "Valore non disponibile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.966944,
+          45.421389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "IDSTAZ": "553",
+        "Media_V": "2,61",
+        "Media_T": "16,0",
+        "Max_T": "32,2",
+        "Min_T": "-2,2",
+        "Media_DT": "25,0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.934444,
+          45.488889
+        ]
+      }
+    }
+  ]
+}
