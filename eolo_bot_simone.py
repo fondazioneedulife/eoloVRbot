@@ -3,10 +3,6 @@ import telebot
 from telebot import types
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from math import radians, cos, sin, asin, sqrt
-from urllib.request import urlopen
-import requests
-import json
-
 
 API_TOKEN = ':'
 bot = telebot.TeleBot(API_TOKEN)
