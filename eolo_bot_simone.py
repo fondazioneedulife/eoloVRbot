@@ -72,11 +72,11 @@ def echo_message(message):
 @bot.message_handler(content_types=["location"])
 def location_received(message):
     bot.send_message(message.chat.id,"Posizione ricevuta")    
-    searchnearfountains(message.location.latitude, message.location.longitude,message)
+    searchnearstation(message.location.latitude, message.location.longitude,message)
 
-def searchnearfountains(lat_current,lng_current,message):
+def searchnearstation(lat_current,lng_current,message):
     dati=leggidati()
-    rmb=mindistancefountains(dati,lat_current,lng_current)
+    rmb=mindistancestation(dati,lat_current,lng_current)
     id_staz=dati[rmb][0]
     Media_V=dati[rmb][1]
     Media_T=dati[rmb][2]
@@ -103,7 +103,7 @@ def searchnearfountains(lat_current,lng_current,message):
 
     bot.send_message(message.chat.id,msg)
     
-def mindistancefountains(dati,lat_current,lng_current):
+def mindistancestation(dati,lat_current,lng_current):
     minima_distance=pow(pow(lat_current - dati[0][7], 2) + pow(lng_current - dati[0][6], 2), .5)
     countrmb=0
     for value in dati:
